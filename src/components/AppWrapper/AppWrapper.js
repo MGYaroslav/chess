@@ -122,10 +122,12 @@ export const AppWrapper = () => {
           setSelectedFigure={setSelectedFigure}
           filled={filled}
         />
-        <button disabled={!selectedFigure || filled} onClick={handleFill}>
-          Fill
-        </button>
-        <button onClick={handleReset}>Reset</button>
+        <div className="app-buttons-wrapper">
+          <button disabled={!selectedFigure || filled} onClick={handleFill}>
+            Fill
+          </button>
+          <button onClick={handleReset}>Reset</button>
+        </div>
       </div>
     </div>
   );
