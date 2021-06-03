@@ -1,0 +1,33 @@
+.chess-wrapper {
+    display: flex;
+    padding: 10px;
+    background-color: teal;
+    width: 600px;
+    height: 600px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white {
+    width: 30px;
+    height: 30px;
+    background-color: #fdfdfd;
+}
+.chess-image {
+    width: 25px;
+    height: 25px;
+}
+
+.black {
+    width: 30px;
+    height: 30px;
+    background-color: #655959;
+}
+
+.select {
+    background-color: blue;
+}
